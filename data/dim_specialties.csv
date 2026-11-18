@@ -1,0 +1,7 @@
+specialty_id,specialty_code,specialty_name,standard_consultation_fee,standard_slot_duration_mins,department_head
+1,SPEC-01,General Medicine,600.0,20,Dr. Rajesh Sharma
+2,SPEC-02,Cardiology,1200.0,30,Dr. A. K. Banerjee
+3,SPEC-03,Orthopedics,900.0,20,Dr. Vikram Malhotra
+4,SPEC-04,Dermatology,800.0,20,Dr. Priya Nair
+5,SPEC-05,Mental Wellness,1500.0,45,Dr. Ananya Sen
+6,SPEC-06,Corporate Health,500.0,20,Dr. Amit Verma

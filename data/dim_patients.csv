@@ -1,0 +1,201 @@
+patient_id,patient_mrn,age,age_group,gender,neighborhood,transit_distance_km,hypertension_flag,diabetes_flag,chronic_comorbidity_score,corporate_partner_flag,corporate_shift_type,registration_date
+1,MRN-10001,20,18-30,F,Noida Sector 18,6.2,0,0,0,0,None,2025-08-05
+2,MRN-10002,27,18-30,M,Noida Sector 62,3.2,0,0,0,0,None,2025-08-18
+3,MRN-10003,61,61-75,F,Vaishali Ghaziabad,5.1,0,1,1,0,None,2025-02-17
+4,MRN-10004,32,31-45,M,Noida Sector 15,5.1,0,0,0,0,None,2025-11-18
+5,MRN-10005,19,18-30,F,Noida Sector 62,3.6,0,0,0,0,None,2025-04-30
+6,MRN-10006,42,31-45,F,Indirapuram,4.0,1,0,1,0,None,2025-11-28
+7,MRN-10007,58,46-60,M,Noida Sector 15,4.5,0,0,0,0,None,2025-12-17
+8,MRN-10008,68,61-75,M,Noida Expressway Sector 137,12.1,1,0,1,0,None,2025-10-18
+9,MRN-10009,62,61-75,F,Noida Sector 15,3.6,1,0,1,0,None,2025-10-03
+10,MRN-10010,77,75+,M,Noida Expressway Sector 137,11.4,0,0,0,0,None,2025-02-16
+11,MRN-10011,52,46-60,F,Greater Noida Alpha 1,22.9,1,0,1,0,None,2025-05-09
+12,MRN-10012,64,61-75,F,Vaishali Ghaziabad,7.6,1,1,2,0,None,2025-03-22
+13,MRN-10013,64,61-75,M,Noida Sector 18,7.0,1,0,1,0,None,2025-11-08
+14,MRN-10014,55,46-60,M,Vasundhara,7.7,0,0,0,1,General,2025-06-07
+15,MRN-10015,72,61-75,M,Noida Sector 15,6.3,0,0,0,0,None,2025-03-06
+16,MRN-10016,26,18-30,M,Knowledge Park Greater Noida,26.2,0,0,0,0,None,2025-04-13
+17,MRN-10017,47,46-60,F,Noida Sector 15,3.5,1,0,1,0,None,2025-04-28
+18,MRN-10018,56,46-60,F,Noida Extension (Gaur City),7.3,1,1,2,0,None,2025-05-23
+19,MRN-10019,27,18-30,F,Knowledge Park Greater Noida,26.4,0,0,0,1,Evening,2025-08-09
+20,MRN-10020,56,46-60,M,Noida Sector 18,3.7,0,0,0,1,Evening,2025-10-02
+21,MRN-10021,38,31-45,M,Noida Sector 18,5.3,0,0,0,1,General,2025-01-08
+22,MRN-10022,46,46-60,F,Noida Extension (Gaur City),10.5,0,1,1,1,General,2025-08-21
+23,MRN-10023,22,18-30,M,Noida Extension (Gaur City),10.9,0,0,0,0,None,2025-01-30
+24,MRN-10024,79,75+,M,Indirapuram,2.7,1,0,1,0,None,2025-02-05
+25,MRN-10025,27,18-30,F,Noida Extension (Gaur City),9.3,1,0,1,0,None,2025-10-17
+26,MRN-10026,61,61-75,F,Noida Extension (Gaur City),8.1,1,0,1,0,None,2025-08-23
+27,MRN-10027,49,46-60,M,Noida Sector 18,3.8,1,0,1,0,None,2025-02-05
+28,MRN-10028,26,18-30,F,Vaishali Ghaziabad,6.9,0,0,0,1,General,2025-06-03
+29,MRN-10029,34,31-45,F,Vasundhara,4.6,0,0,0,1,General,2025-05-16
+30,MRN-10030,24,18-30,M,Vaishali Ghaziabad,4.7,0,0,0,0,None,2025-03-24
+31,MRN-10031,34,31-45,F,Noida Sector 18,7.3,0,0,0,1,General,2025-10-10
+32,MRN-10032,32,31-45,M,Noida Expressway Sector 137,11.3,0,0,0,0,None,2025-07-28
+33,MRN-10033,68,61-75,F,Indirapuram,6.0,1,0,1,0,None,2025-06-20
+34,MRN-10034,53,46-60,F,Noida Sector 18,5.0,1,0,1,1,General,2025-06-29
+35,MRN-10035,21,18-30,M,Greater Noida Alpha 1,21.8,0,0,0,1,General,2025-07-24
+36,MRN-10036,72,61-75,F,Vaishali Ghaziabad,5.2,0,1,1,0,None,2025-02-25
+37,MRN-10037,47,46-60,F,Noida Sector 18,5.0,0,0,0,0,None,2025-01-01
+38,MRN-10038,33,31-45,M,Noida Expressway Sector 137,13.0,0,0,0,0,None,2025-09-17
+39,MRN-10039,40,31-45,M,Vasundhara,4.5,0,0,0,0,None,2025-03-31
+40,MRN-10040,31,31-45,F,Vaishali Ghaziabad,5.6,0,0,0,0,None,2025-08-27
+41,MRN-10041,54,46-60,M,Indirapuram,5.1,1,0,1,0,None,2025-02-17
+42,MRN-10042,21,18-30,F,Indirapuram,2.6,0,0,0,0,None,2025-02-07
+43,MRN-10043,62,61-75,M,Noida Sector 15,4.6,1,0,1,0,None,2025-02-24
+44,MRN-10044,67,61-75,F,Vasundhara,5.9,0,0,0,0,None,2025-03-04
+45,MRN-10045,108,75+,M,Noida Expressway Sector 137,14.3,0,0,0,0,None,2025-09-16
+46,MRN-10046,82,75+,M,Noida Sector 15,4.8,0,0,0,0,None,2025-05-22
+47,MRN-10047,39,31-45,F,Noida Sector 15,3.3,0,0,0,1,General,2025-03-12
+48,MRN-10048,57,46-60,M,Greater Noida Alpha 1,22.1,1,1,2,1,General,2025-10-27
+49,MRN-10049,31,31-45,F,Noida Expressway Sector 137,11.7,0,0,0,0,None,2025-10-03
+50,MRN-10050,78,75+,F,Noida Extension (Gaur City),8.1,1,1,2,0,None,2025-12-09
+51,MRN-10051,70,61-75,F,Indirapuram,6.4,1,0,1,0,None,2025-10-31
+52,MRN-10052,35,31-45,F,Noida Sector 15,3.7,0,0,0,0,None,2025-06-22
+53,MRN-10053,69,61-75,F,Greater Noida Alpha 1,21.5,1,1,2,0,None,2025-10-04
+54,MRN-10054,68,61-75,M,Noida Sector 62,4.0,0,1,1,0,None,2025-01-11
+55,MRN-10055,34,31-45,F,Knowledge Park Greater Noida,28.3,0,0,0,1,General,2025-02-28
+56,MRN-10056,18,18-30,F,Vaishali Ghaziabad,6.8,0,0,0,0,None,2025-04-12
+57,MRN-10057,60,46-60,M,Knowledge Park Greater Noida,27.7,0,0,0,0,None,2025-01-22
+58,MRN-10058,28,18-30,M,Noida Expressway Sector 137,10.6,0,0,0,0,None,2025-07-05
+59,MRN-10059,54,46-60,F,Vasundhara,7.9,1,0,1,0,None,2025-09-05
+60,MRN-10060,38,31-45,M,Noida Sector 18,4.6,0,0,0,0,None,2025-12-09
+61,MRN-10061,58,46-60,M,Noida Sector 15,3.8,0,1,1,0,None,2025-12-26
+62,MRN-10062,37,31-45,F,Noida Sector 18,4.5,0,0,0,1,General,2025-12-31
+63,MRN-10063,43,31-45,M,Noida Extension (Gaur City),8.2,0,0,0,0,None,2025-08-06
+64,MRN-10064,45,31-45,F,Vaishali Ghaziabad,5.7,1,0,1,1,General,2025-12-20
+65,MRN-10065,49,46-60,M,Vasundhara,6.4,0,0,0,1,General,2025-06-04
+66,MRN-10066,32,31-45,M,Vasundhara,5.2,0,0,0,0,None,2025-02-22
+67,MRN-10067,45,31-45,F,Noida Expressway Sector 137,11.2,1,0,1,0,None,2025-02-03
+68,MRN-10068,32,31-45,M,Indirapuram,3.1,0,0,0,0,None,2025-03-02
+69,MRN-10069,50,46-60,F,Noida Extension (Gaur City),10.1,1,0,1,1,General,2025-08-08
+70,MRN-10070,54,46-60,M,Noida Sector 18,7.3,1,1,2,0,None,2025-03-22
+71,MRN-10071,24,18-30,M,Noida Sector 15,5.8,0,1,1,1,Evening,2025-08-21
+72,MRN-10072,66,61-75,M,Knowledge Park Greater Noida,27.1,0,1,1,0,None,2025-10-06
+73,MRN-10073,57,46-60,M,Noida Sector 62,1.7,1,0,1,0,None,2025-05-28
+74,MRN-10074,60,46-60,M,Vasundhara,6.2,1,0,1,0,None,2025-08-10
+75,MRN-10075,21,18-30,F,Knowledge Park Greater Noida,26.8,1,0,1,0,None,2025-10-23
+76,MRN-10076,45,31-45,M,Vaishali Ghaziabad,5.2,0,0,0,0,None,2025-02-16
+77,MRN-10077,34,31-45,M,Indirapuram,3.8,0,0,0,0,None,2025-10-09
+78,MRN-10078,34,31-45,M,Greater Noida Alpha 1,24.0,0,1,1,0,None,2025-08-25
+79,MRN-10079,55,46-60,M,Noida Sector 15,5.5,0,1,1,0,None,2025-05-28
+80,MRN-10080,28,18-30,M,Knowledge Park Greater Noida,27.7,0,0,0,1,General,2025-04-26
+81,MRN-10081,81,75+,F,Indirapuram,4.5,0,0,0,0,None,2025-05-20
+82,MRN-10082,26,18-30,M,Indirapuram,4.0,0,0,0,0,None,2025-02-05
+83,MRN-10083,79,75+,M,Vaishali Ghaziabad,7.8,1,1,2,0,None,2025-10-28
+84,MRN-10084,46,46-60,F,Noida Expressway Sector 137,11.8,0,0,0,0,None,2025-04-07
+85,MRN-10085,55,46-60,F,Greater Noida Alpha 1,20.7,0,0,0,0,None,2025-07-17
+86,MRN-10086,73,61-75,F,Vasundhara,7.9,1,1,2,0,None,2025-08-14
+87,MRN-10087,62,61-75,M,Indirapuram,2.8,0,1,1,0,None,2025-11-16
+88,MRN-10088,69,61-75,F,Vasundhara,5.5,1,0,1,0,None,2025-09-07
+89,MRN-10089,28,18-30,F,Vaishali Ghaziabad,8.5,0,0,0,1,General,2025-02-21
+90,MRN-10090,30,18-30,M,Noida Sector 62,2.2,0,0,0,0,None,2025-10-17
+91,MRN-10091,27,18-30,F,Greater Noida Alpha 1,23.0,0,0,0,1,General,2025-05-11
+92,MRN-10092,81,75+,M,Vasundhara,4.6,1,1,2,0,None,2025-10-28
+93,MRN-10093,40,31-45,M,Noida Extension (Gaur City),11.0,0,1,1,0,None,2025-07-03
+94,MRN-10094,81,75+,F,Greater Noida Alpha 1,21.6,0,0,0,0,None,2025-01-26
+95,MRN-10095,59,46-60,F,Knowledge Park Greater Noida,27.7,1,1,2,0,None,2025-05-09
+96,MRN-10096,81,75+,F,Noida Sector 62,2.2,1,0,1,0,None,2025-03-09
+97,MRN-10097,58,46-60,M,Noida Extension (Gaur City),7.5,1,0,1,0,None,2025-05-20
+98,MRN-10098,75,61-75,F,Noida Expressway Sector 137,13.7,1,1,2,0,None,2025-04-26
+99,MRN-10099,43,31-45,F,Noida Sector 62,2.1,1,0,1,0,None,2025-05-15
+100,MRN-10100,63,61-75,F,Noida Sector 62,3.5,0,1,1,0,None,2025-11-09
+101,MRN-10101,75,61-75,M,Greater Noida Alpha 1,21.0,1,1,2,0,None,2025-09-10
+102,MRN-10102,25,18-30,M,Noida Expressway Sector 137,13.2,0,0,0,0,None,2025-03-21
+103,MRN-10103,39,31-45,F,Noida Sector 62,3.8,1,0,1,1,General,2025-12-18
+104,MRN-10104,37,31-45,M,Noida Sector 18,7.3,0,1,1,1,General,2025-01-11
+105,MRN-10105,83,75+,M,Knowledge Park Greater Noida,25.3,0,0,0,0,None,2025-10-28
+106,MRN-10106,68,61-75,M,Knowledge Park Greater Noida,24.5,0,1,1,0,None,2025-03-08
+107,MRN-10107,56,46-60,F,Indirapuram,2.6,0,1,1,1,Evening,2025-01-27
+108,MRN-10108,19,18-30,M,Noida Sector 15,4.8,0,0,0,0,None,2025-08-20
+109,MRN-10109,70,61-75,M,Vasundhara,5.2,0,1,1,0,None,2025-09-03
+110,MRN-10110,45,31-45,F,Noida Sector 18,7.1,0,1,1,1,General,2025-10-27
+111,MRN-10111,79,75+,F,Vaishali Ghaziabad,6.3,0,1,1,0,None,2025-12-26
+112,MRN-10112,38,31-45,M,Greater Noida Alpha 1,21.9,0,0,0,1,General,2025-12-07
+113,MRN-10113,19,18-30,M,Noida Sector 18,5.2,0,0,0,0,None,2025-03-08
+114,MRN-10114,52,46-60,F,Noida Sector 18,5.1,0,0,0,0,None,2025-01-27
+115,MRN-10115,49,46-60,F,Vasundhara,4.9,0,0,0,1,General,2025-07-08
+116,MRN-10116,24,18-30,M,Vasundhara,7.9,0,0,0,0,None,2025-01-14
+117,MRN-10117,29,18-30,F,Vaishali Ghaziabad,8.2,0,0,0,1,General,2025-02-05
+118,MRN-10118,59,46-60,M,Greater Noida Alpha 1,22.2,1,1,2,0,None,2025-06-16
+119,MRN-10119,18,18-30,F,Indirapuram,3.1,0,0,0,0,None,2025-05-20
+120,MRN-10120,44,31-45,M,Vaishali Ghaziabad,5.4,0,0,0,1,General,2025-10-31
+121,MRN-10121,27,18-30,M,Noida Sector 62,1.0,0,0,0,1,Evening,2025-06-17
+122,MRN-10122,24,18-30,M,Vasundhara,6.8,0,0,0,0,None,2025-02-06
+123,MRN-10123,19,18-30,M,Noida Expressway Sector 137,12.8,0,0,0,0,None,2025-08-02
+124,MRN-10124,73,61-75,M,Knowledge Park Greater Noida,26.3,0,1,1,0,None,2025-08-12
+125,MRN-10125,47,46-60,F,Noida Sector 18,5.1,0,0,0,1,Evening,2025-09-19
+126,MRN-10126,30,18-30,F,Noida Expressway Sector 137,11.9,0,0,0,1,Evening,2025-05-12
+127,MRN-10127,66,61-75,M,Noida Sector 18,4.2,0,0,0,0,None,2025-10-16
+128,MRN-10128,50,46-60,F,Noida Expressway Sector 137,14.0,0,1,1,1,General,2025-06-05
+129,MRN-10129,33,31-45,F,Vaishali Ghaziabad,6.3,1,0,1,1,General,2025-02-16
+130,MRN-10130,48,46-60,F,Noida Sector 62,2.8,0,0,0,1,General,2025-03-19
+131,MRN-10131,69,61-75,F,Noida Expressway Sector 137,14.4,1,0,1,0,None,2025-01-21
+132,MRN-10132,50,46-60,M,Indirapuram,4.0,0,1,1,0,None,2025-12-14
+133,MRN-10133,48,46-60,F,Greater Noida Alpha 1,21.6,0,0,0,0,None,2025-03-18
+134,MRN-10134,75,61-75,M,Greater Noida Alpha 1,21.0,0,1,1,0,None,2025-10-14
+135,MRN-10135,69,61-75,M,Vasundhara,4.4,0,0,0,0,None,2025-01-10
+136,MRN-10136,55,46-60,M,Noida Sector 15,3.8,0,1,1,1,General,2025-09-17
+137,MRN-10137,70,61-75,F,Knowledge Park Greater Noida,25.0,1,1,2,0,None,2025-12-21
+138,MRN-10138,23,18-30,F,Noida Extension (Gaur City),10.9,0,0,0,0,None,2025-04-30
+139,MRN-10139,74,61-75,F,Noida Expressway Sector 137,13.2,0,1,1,0,None,2025-05-25
+140,MRN-10140,36,31-45,F,Noida Extension (Gaur City),10.2,1,0,1,0,None,2025-07-10
+141,MRN-10141,60,46-60,F,Noida Sector 18,6.6,1,0,1,0,None,2025-03-17
+142,MRN-10142,70,61-75,F,Noida Expressway Sector 137,14.2,1,1,2,0,None,2025-07-11
+143,MRN-10143,23,18-30,M,Noida Sector 18,6.9,0,0,0,1,Evening,2025-08-30
+144,MRN-10144,31,31-45,F,Noida Sector 18,3.6,0,0,0,0,None,2025-11-08
+145,MRN-10145,19,18-30,F,Noida Sector 62,2.0,0,0,0,0,None,2025-02-02
+146,MRN-10146,51,46-60,M,Vasundhara,6.3,0,1,1,1,General,2025-10-20
+147,MRN-10147,72,61-75,M,Vasundhara,6.2,0,0,0,0,None,2025-01-11
+148,MRN-10148,42,31-45,M,Vaishali Ghaziabad,7.5,0,1,1,1,General,2025-02-23
+149,MRN-10149,26,18-30,F,Noida Expressway Sector 137,13.8,0,0,0,0,None,2025-12-23
+150,MRN-10150,30,18-30,M,Noida Sector 15,3.1,0,0,0,0,None,2025-06-11
+151,MRN-10151,79,75+,F,Noida Sector 15,4.0,0,1,1,0,None,2025-07-02
+152,MRN-10152,42,31-45,F,Greater Noida Alpha 1,24.1,0,0,0,0,None,2025-04-06
+153,MRN-10153,79,75+,M,Vaishali Ghaziabad,7.7,0,1,1,0,None,2025-11-05
+154,MRN-10154,34,31-45,F,Noida Sector 18,4.8,0,0,0,0,None,2025-03-27
+155,MRN-10155,23,18-30,F,Knowledge Park Greater Noida,28.5,0,0,0,0,None,2025-02-08
+156,MRN-10156,54,46-60,F,Indirapuram,6.3,1,0,1,0,None,2025-01-18
+157,MRN-10157,49,46-60,M,Noida Sector 62,3.4,0,0,0,1,General,2025-10-21
+158,MRN-10158,39,31-45,M,Noida Extension (Gaur City),10.8,1,1,2,0,None,2025-10-15
+159,MRN-10159,27,18-30,M,Vaishali Ghaziabad,7.3,0,0,0,1,Evening,2025-03-30
+160,MRN-10160,69,61-75,F,Noida Expressway Sector 137,13.2,0,0,0,0,None,2025-05-29
+161,MRN-10161,64,61-75,F,Noida Extension (Gaur City),7.5,1,1,2,0,None,2025-09-10
+162,MRN-10162,48,46-60,M,Indirapuram,4.9,1,0,1,0,None,2025-09-03
+163,MRN-10163,23,18-30,F,Noida Sector 18,5.3,0,0,0,0,None,2025-10-10
+164,MRN-10164,32,31-45,F,Noida Sector 18,5.6,0,0,0,0,None,2025-04-26
+165,MRN-10165,60,46-60,M,Noida Extension (Gaur City),9.5,0,1,1,0,None,2025-06-05
+166,MRN-10166,49,46-60,F,Knowledge Park Greater Noida,25.1,0,0,0,0,None,2025-10-16
+167,MRN-10167,28,18-30,M,Knowledge Park Greater Noida,25.6,0,0,0,0,None,2025-01-16
+168,MRN-10168,40,31-45,M,Noida Sector 15,4.0,0,0,0,0,None,2025-12-19
+169,MRN-10169,37,31-45,M,Noida Expressway Sector 137,12.9,0,0,0,0,None,2025-06-26
+170,MRN-10170,34,31-45,F,Noida Expressway Sector 137,11.5,0,0,0,1,Evening,2025-07-16
+171,MRN-10171,85,75+,F,Indirapuram,5.8,0,0,0,0,None,2025-04-08
+172,MRN-10172,40,31-45,F,Noida Sector 15,3.1,0,0,0,0,None,2025-04-21
+173,MRN-10173,50,46-60,F,Noida Sector 15,4.1,1,1,2,1,Evening,2025-07-07
+174,MRN-10174,49,46-60,F,Vasundhara,4.8,0,1,1,0,None,2025-10-09
+175,MRN-10175,19,18-30,M,Greater Noida Alpha 1,22.0,0,0,0,0,None,2025-07-07
+176,MRN-10176,47,46-60,F,Noida Sector 62,1.2,1,0,1,0,None,2025-08-22
+177,MRN-10177,50,46-60,M,Noida Expressway Sector 137,11.2,0,0,0,1,Evening,2025-09-18
+178,MRN-10178,31,31-45,F,Noida Expressway Sector 137,11.8,0,0,0,1,General,2025-12-19
+179,MRN-10179,51,46-60,F,Knowledge Park Greater Noida,26.8,0,0,0,1,General,2025-11-14
+180,MRN-10180,59,46-60,F,Noida Sector 62,3.3,0,1,1,0,None,2025-08-14
+181,MRN-10181,62,61-75,M,Vasundhara,7.1,0,0,0,0,None,2025-02-01
+182,MRN-10182,52,46-60,F,Noida Sector 15,5.1,1,1,2,0,None,2025-06-25
+183,MRN-10183,38,31-45,F,Vaishali Ghaziabad,6.7,1,0,1,1,Evening,2025-04-17
+184,MRN-10184,48,46-60,F,Vaishali Ghaziabad,5.7,0,0,0,0,None,2025-07-22
+185,MRN-10185,29,18-30,F,Noida Sector 18,4.9,0,0,0,0,None,2025-04-14
+186,MRN-10186,58,46-60,F,Noida Sector 18,6.0,0,1,1,0,None,2025-09-29
+187,MRN-10187,23,18-30,M,Noida Sector 15,3.4,0,1,1,0,None,2025-03-22
+188,MRN-10188,68,61-75,M,Vaishali Ghaziabad,5.8,0,0,0,0,None,2025-02-15
+189,MRN-10189,69,61-75,F,Noida Sector 62,4.7,1,0,1,0,None,2025-04-01
+190,MRN-10190,58,46-60,F,Vaishali Ghaziabad,8.0,1,0,1,1,General,2025-05-26
+191,MRN-10191,35,31-45,M,Vasundhara,5.9,1,1,2,1,General,2025-05-12
+192,MRN-10192,65,61-75,F,Noida Extension (Gaur City),7.7,0,0,0,0,None,2025-08-07
+193,MRN-10193,58,46-60,M,Indirapuram,4.4,0,1,1,0,None,2025-08-17
+194,MRN-10194,49,46-60,F,Noida Sector 62,2.0,0,0,0,0,None,2025-08-27
+195,MRN-10195,85,75+,M,Vaishali Ghaziabad,7.3,0,0,0,0,None,2025-07-08
+196,MRN-10196,45,31-45,F,Knowledge Park Greater Noida,26.0,0,0,0,0,None,2025-12-07
+197,MRN-10197,57,46-60,F,Vasundhara,5.8,0,1,1,0,None,2025-02-01
+198,MRN-10198,35,31-45,F,Indirapuram,3.8,0,1,1,1,General,2025-02-16
+199,MRN-10199,47,46-60,F,Greater Noida Alpha 1,22.3,1,0,1,0,None,2025-01-12
+200,MRN-10200,32,31-45,M,Greater Noida Alpha 1,21.9,1,0,1,0,None,2025-02-05

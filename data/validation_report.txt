@@ -1,0 +1,46 @@
+=========================================================================
+APEXCARE HEALTH NETWORK: SYNTHETIC DATASET GENERATION VALIDATION REPORT
+Timestamp: 2026-11-18T15:51:22.228695
+=========================================================================
+
+1. GENERATED TABLE ROW COUNTS:
+   - dim_clinics:              4 rows
+   - dim_specialties:          6 rows
+   - dim_doctors:              12 rows
+   - dim_patients:             200 rows
+   - fact_appointments:        300 rows
+   - vw_appointment_analytics: 300 rows, 36 columns
+
+2. REFERENTIAL INTEGRITY AUDIT:
+   - Foreign Key Violations:   0 (PASS: 100% Valid Keys)
+
+3. BASELINE OPERATIONAL OUTCOME:
+   - Overall No-Show Rate:     18.33%
+
+4. BUILT-IN STATISTICAL PATTERNS AUDIT:
+   - Pattern 1: Lead-Time Decay Effect
+       * 0-2 days    :  17.2% no-show rate (N=93)
+       * 15-30 days  :  31.6% no-show rate (N=38)
+       * 3-7 days    :  14.3% no-show rate (N=112)
+       * 8-14 days   :  13.3% no-show rate (N=45)
+       * >30 days    :  41.7% no-show rate (N=12)
+   - Pattern 2: Digital Reminder (SMS) Protective Lift
+       * No Reminder (0)  :  26.6% no-show rate (N=109)
+       * Reminder Sent (1):  13.6% no-show rate (N=191)
+   - Pattern 3: Specialty Attrition Variance
+       * Dermatology         :  25.0% no-show rate (N=52)
+       * Mental Wellness     :  22.0% no-show rate (N=50)
+       * General Medicine    :  19.7% no-show rate (N=61)
+       * Orthopedics         :  16.7% no-show rate (N=36)
+       * Corporate Health    :  13.1% no-show rate (N=61)
+       * Cardiology          :  12.5% no-show rate (N=40)
+   - Pattern 4: Repeat Offender Concentration (Pareto Risk)
+       * First-Timer     :  16.4% no-show rate | Total Misses = 37 (N=225)
+       * Habitual        :  37.5% no-show rate | Total Misses = 6 (N=16)
+       * Occasional Miss :  20.3% no-show rate | Total Misses = 12 (N=59)
+
+5. BUILT-IN DATA QUALITY DEFECTS (FOR STEP 15 CLEANING PIPELINE):
+   - Missing Values: 6 records with missing 'reminder_lead_hours' (2.0% rate)
+   - Duplicates:     2 duplicate submissions preserved in raw CSV archive
+   - Outliers:       Patient Age=108, Lead Time=92 days, Fee=INR 3500
+=========================================================================

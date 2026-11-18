@@ -1,0 +1,5 @@
+clinic_id,clinic_code,clinic_name,location_sector,city,contact_number,daily_slot_capacity
+1,CLN-01,ApexCare Sector 62 Clinic,Noida Sector 62,Noida,0120-4100101,120
+2,CLN-02,ApexCare Sector 18 Center,Noida Sector 18,Noida,0120-4100102,100
+3,CLN-03,ApexCare Expressway Campus,Noida Expressway,Noida,0120-4100103,80
+4,CLN-04,ApexCare Greater Noida Branch,Knowledge Park III,Greater Noida,0120-4100104,90

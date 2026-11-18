@@ -1,0 +1,13 @@
+doctor_id,doctor_code,doctor_name,specialty_id,clinic_id,qualification,hourly_idle_rate
+1,DOC-001,Dr. Rajesh Sharma,1,1,"MBBS, MD (Medicine)",1800.0
+2,DOC-002,Dr. Sunita Rao,1,2,"MBBS, DNB (Internal Med)",1800.0
+3,DOC-003,Dr. A. K. Banerjee,2,1,"MBBS, MD, DM (Cardiology)",3000.0
+4,DOC-004,Dr. Sanjay Gupta,2,3,"MBBS, MD (Cardiology)",2800.0
+5,DOC-005,Dr. Vikram Malhotra,3,1,"MBBS, MS (Orthopedics)",2200.0
+6,DOC-006,Dr. Ritu Saxena,3,4,"MBBS, DNB (Ortho)",2000.0
+7,DOC-007,Dr. Priya Nair,4,2,"MBBS, MD (Dermatology)",2000.0
+8,DOC-008,Dr. Manish Tiwari,4,3,"MBBS, DVD",1900.0
+9,DOC-009,Dr. Ananya Sen,5,1,"MD (Psychiatry), DPM",2500.0
+10,DOC-010,Dr. Rohan Kapoor,5,2,DNB (Psychiatry),2200.0
+11,DOC-011,Dr. Amit Verma,6,1,"MBBS, AFIH (Occupational Health)",1500.0
+12,DOC-012,Dr. Neha Agarwal,6,4,"MBBS, PGDHM",1400.0
