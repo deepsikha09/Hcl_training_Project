@@ -10,6 +10,8 @@
 **Learner:** Deepshikha | Roll No: `2500320140047`  
 **Faculty Mentor:** Alpna Lodhi mam  
 **Modeled Healthcare Network:** ApexCare Health Network, Noida (Sectors 62, 18, 137, Greater Noida)  
+**GitHub Repository:** [https://github.com/deepsikha09/Hcl_training_Project](https://github.com/deepsikha09/Hcl_training_Project)  
+**Live Web Application:** [https://2500320140047-appointment-noshow.streamlit.app](https://2500320140047-appointment-noshow.streamlit.app)  
 
 ---
 
