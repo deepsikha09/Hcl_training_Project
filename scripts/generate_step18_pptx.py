@@ -129,7 +129,7 @@ def build_presentation(output_path):
     tf1_meta = meta_tb1.text_frame
     
     p = tf1_meta.paragraphs[0]
-    p.text = "Healthcare Network Modeled: ApexCare Health Network, Noida (Sectors 62, 18, 137, Greater Noida)"
+    p.text = "Project ID: P101  |  Batch: ABES_OND26 MCA 2ND YEAR_DATA ANALYTICS_BATCH 01"
     p.font.size = Pt(11)
     p.font.bold = True
     p.font.color.rgb = RGBColor(255, 255, 255)
@@ -140,8 +140,13 @@ def build_presentation(output_path):
     p.font.color.rgb = RGBColor(203, 213, 225)
 
     p = tf1_meta.add_paragraph()
-    p.text = "Faculty Project Mentor: Alpna Lodhi mam  |  Academic Session: 2026–2027"
+    p.text = "Faculty Project Mentor: Dinesh Sereno  |  Academic Session: 2026–2027"
     p.font.size = Pt(11)
+    p.font.color.rgb = RGBColor(203, 213, 225)
+
+    p = tf1_meta.add_paragraph()
+    p.text = "Healthcare Network: ApexCare Health Network, Noida (Sectors 62, 18, 137, Greater Noida)"
+    p.font.size = Pt(10)
     p.font.color.rgb = RGBColor(203, 213, 225)
 
     p = tf1_meta.add_paragraph()
@@ -151,11 +156,11 @@ def build_presentation(output_path):
 
     add_speaker_notes(s1, 
         "Good morning respected evaluators and faculty members. My name is Deepshikha, Roll Number 2500320140047, "
-        "and today I am presenting my MCA Capstone Project: the Outpatient Appointment No-Show Analysis and Capacity "
-        "Optimization System, completed under the mentorship of Alpna Lodhi mam. This project tackles the endemic problem "
-        "of patient no-shows across ApexCare Health Network's four outpatient clinics in Noida using Python, Streamlit, "
-        "and statistical inference. Over the next five minutes, I will walk you through the operational challenge, "
-        "our analytical solution, key findings, and live demonstration."
+        "presenting Project P101 for Batch ABES_OND26 MCA 2ND YEAR_DATA ANALYTICS_BATCH 01: the Outpatient Appointment "
+        "No-Show Analysis and Capacity Optimization System, completed under the mentorship of Dinesh Sereno. "
+        "This project tackles the endemic problem of patient no-shows across ApexCare Health Network's four outpatient clinics "
+        "in Noida using Python, Streamlit, and statistical inference. Over the next five minutes, I will walk you through "
+        "the operational challenge, our analytical solution, key findings, and live demonstration."
     )
 
     # =========================================================================
@@ -743,7 +748,7 @@ def build_presentation(output_path):
     p.space_after = Pt(6)
 
     p_git = tf11_r.add_paragraph()
-    p_git.text = "https://github.com/deepshikha-0047/2500320140047-appointment-noshow"
+    p_git.text = "https://github.com/deepsikha09/Hcl_training_Project"
     p_git.font.size = Pt(11)
     p_git.font.bold = True
     p_git.font.color.rgb = COLOR_ACCENT
@@ -766,7 +771,7 @@ def build_presentation(output_path):
 
     add_speaker_notes(s11,
         "In conclusion, our platform is fully deployed and accessible on Streamlit Community Cloud, and our complete "
-        "codebase and academic deliverables are hosted on GitHub. I would like to express my sincere gratitude to Alpna Lodhi mam "
+        "codebase and academic deliverables are hosted on GitHub. I would like to express my sincere gratitude to Dinesh Sereno "
         "and the MCA department for their guidance. I am now excited to switch to the live application for a demonstration "
         "and welcome any questions from the panel. Thank you very much."
     )

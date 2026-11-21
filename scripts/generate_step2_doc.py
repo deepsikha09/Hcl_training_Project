@@ -86,12 +86,13 @@ def build_step2_document(output_path):
     doc.add_paragraph().paragraph_format.space_after = Pt(4)
 
     # Document Header Box
-    h_table = doc.add_table(rows=5, cols=2)
+    h_table = doc.add_table(rows=6, cols=2)
     h_widths = [2.2, 4.3]
     h_data = [
+        ("Project ID & Batch:", "P101 | ABES_OND26 MCA 2ND YEAR_DATA ANALYTICS_BATCH 01"),
         ("Project Title:", "Appointment No-Show Analysis & Optimization System"),
         ("Student Details:", "Deepshikha | Roll No: 2500320140047 | MCA 2nd Year (DA)"),
-        ("Faculty Mentor:", "Alpna Lodhi mam, Assistant Professor, Dept. of MCA"),
+        ("Faculty Mentor:", "Dinesh Sereno, Assistant Professor, Dept. of MCA"),
         ("Domain & Organisation:", "Healthcare Analytics | ApexCare Outpatient & Corporate Health Network, Noida"),
         ("Deliverable Step:", "Step 02 — How Might We (HMW) Design-Thinking Opportunity Framework")
     ]
@@ -204,7 +205,7 @@ def build_step2_document(output_path):
     add_bullet_p("Poor Preventive Checkup Adherence: ", "Corporate employees in high-stress software engineering roles repeatedly miss booked annual wellness checks due to sudden project meetings.")
     add_bullet_p("Suboptimal Slot Alignment: ", "Wellness appointment slots do not correspond with employee work schedules (e.g., late evenings or weekends), depressing attendance.")
 
-    add_heading_2("SH-05: Data Analyst & Academic Evaluator (Deepshikha & Alpna Lodhi mam)")
+    add_heading_2("SH-05: Data Analyst & Academic Evaluator (Deepshikha & Dinesh Sereno)")
     add_bullet_p("Risk of Disconnected Feature Engineering: ", "Ensuring that complex statistical transformations and risk calculations map directly back to actionable clinic workflows.")
     add_bullet_p("Need for Mathematical & Hypothesis Rigor: ", "Must prove statistical significance beyond descriptive correlation using rigorous two-sample hypothesis testing and odds ratios.")
 

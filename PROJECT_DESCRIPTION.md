@@ -12,9 +12,11 @@
 ### Project Identification & Academic Metadata
 * **Academic Institution:** ABES Engineering College, Ghaziabad
 * **Department:** Department of Master of Computer Applications (MCA)
+* **Project ID:** P101
+* **Batch ID:** ABES_OND26 MCA 2ND YEAR_DATA ANALYTICS_BATCH 01
 * **Specialization:** MCA 2nd Year — Data Analytics Specialization (Capstone Project)
 * **Student Developer:** Deepshikha | Roll No: `2500320140047`
-* **Faculty Project Mentor:** Alpna Lodhi mam, Assistant Professor, Dept. of MCA
+* **Faculty Project Mentor:** Dinesh Sereno, Assistant Professor, Dept. of MCA
 * **Modeled Clinical Network:** ApexCare Outpatient & Corporate Health Network, Noida (Sectors 62, 18, 137, and Greater Noida)
 * **Live Streamlit Application:** [https://2500320140047-appointment-noshow.streamlit.app](https://2500320140047-appointment-noshow.streamlit.app)
 * **GitHub Repository:** [https://github.com/deepsikha09/Hcl_training_Project](https://github.com/deepsikha09/Hcl_training_Project)

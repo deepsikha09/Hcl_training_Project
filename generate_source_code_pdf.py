@@ -66,9 +66,9 @@ class SourceCodePDF(FPDF):
         self.cell(0, 6, "DEPARTMENT OF MASTER OF COMPUTER APPLICATIONS (MCA)", new_x="LMARGIN", new_y="NEXT")
         
         self.set_x(20)
-        self.set_font("Arial", "", 10)
+        self.set_font("Arial", "", 9.5)
         self.set_text_color(100, 116, 139)
-        self.cell(0, 5, "MCA 2nd Year (Data Analytics Specialization) • Capstone Project (MCA-451)", new_x="LMARGIN", new_y="NEXT")
+        self.cell(0, 5, "MCA 2nd Year (Data Analytics Specialization) • Project ID: P101 • Batch: ABES_OND26 MCA 2ND YEAR_DATA ANALYTICS_BATCH 01", new_x="LMARGIN", new_y="NEXT")
         
         # Horizontal Rule
         self.set_xy(20, 44)
@@ -77,39 +77,41 @@ class SourceCodePDF(FPDF):
         self.line(20, 44, 195, 44)
         
         # Document Title
-        self.set_xy(20, 52)
-        self.set_font("Arial", "B", 22)
+        self.set_xy(20, 50)
+        self.set_font("Arial", "B", 21)
         self.set_text_color(15, 23, 42)
-        self.multi_cell(175, 9, "Outpatient Appointment No-Show Analysis\n& Optimization System", new_x="LMARGIN", new_y="NEXT")
+        self.multi_cell(175, 8.5, "Outpatient Appointment No-Show Analysis\n& Optimization System", new_x="LMARGIN", new_y="NEXT")
         
-        self.set_xy(20, 74)
-        self.set_font("Arial", "B", 13)
+        self.set_xy(20, 70)
+        self.set_font("Arial", "B", 12.5)
         self.set_text_color(46, 117, 182) # Accent blue
         self.cell(0, 7, "COMPLETE TECHNICAL IMPLEMENTATION & SOURCE CODE REPOSITORY", new_x="LMARGIN", new_y="NEXT")
         
-        self.set_xy(20, 83)
-        self.set_font("Arial", "I", 10)
+        self.set_xy(20, 79)
+        self.set_font("Arial", "I", 9.5)
         self.set_text_color(71, 85, 105)
-        self.multi_cell(175, 5, "End-to-End Multi-Page Web Application, SQLite Database Layer, Statistical Inference Engine, Predictive Risk Triage Model, and Automated Pytest Verification Suite.")
+        self.multi_cell(175, 4.8, "End-to-End Multi-Page Web Application, SQLite Database Layer, Statistical Inference Engine, Predictive Risk Triage Model, and Automated Pytest Verification Suite.")
         
         # Academic Metadata Box
-        self.set_xy(20, 105)
+        self.set_xy(20, 97)
         self.set_fill_color(248, 250, 252)
         self.set_draw_color(203, 213, 225)
-        self.rect(20, 105, 175, 95, "FD")
+        self.rect(20, 97, 175, 99, "FD")
         
         # Title of Box
-        self.set_xy(25, 110)
-        self.set_font("Arial", "B", 12)
+        self.set_xy(25, 101)
+        self.set_font("Arial", "B", 11)
         self.set_text_color(31, 73, 125)
-        self.cell(0, 6, "PROJECT & CANDIDATE SPECIFICATION", new_x="LMARGIN", new_y="NEXT")
+        self.cell(0, 5, "PROJECT & CANDIDATE SPECIFICATION", new_x="LMARGIN", new_y="NEXT")
         
         meta_items = [
+            ("Project ID", "P101"),
+            ("Batch ID", "ABES_OND26 MCA 2ND YEAR_DATA ANALYTICS_BATCH 01"),
             ("Student Name", "Deepshikha"),
             ("University Roll Number", "2500320140047"),
             ("Academic Degree", "Master of Computer Applications (MCA) — 2nd Year"),
             ("Specialization", "Data Analytics & Healthcare Informatics"),
-            ("Faculty Project Mentor", "Alpna Lodhi mam (Assistant Professor, Dept of MCA)"),
+            ("Faculty Project Mentor", "Dinesh Sereno"),
             ("Healthcare Network Modeled", "ApexCare Health Network, Noida (Sectors 62, 18, 137, Gr. Noida)"),
             ("GitHub Source Code", "https://github.com/deepsikha09/Hcl_training_Project"),
             ("Live Web Application", "https://2500320140047-appointment-noshow.streamlit.app"),
@@ -117,19 +119,19 @@ class SourceCodePDF(FPDF):
             ("Submission Session", "Academic Session 2026–2027 • LMS Evaluated")
         ]
         
-        y_pos = 120
+        y_pos = 109
         for label, val in meta_items:
             self.set_xy(25, y_pos)
-            self.set_font("Arial", "B", 9.5)
+            self.set_font("Arial", "B", 8.8)
             self.set_text_color(31, 73, 125)
-            self.cell(50, 5, label + ":", align="L")
-            self.set_font("Arial", "", 9.5)
+            self.cell(48, 5, label + ":", align="L")
+            self.set_font("Arial", "", 8.8)
             self.set_text_color(30, 41, 59)
-            self.cell(115, 5, val, align="L")
-            y_pos += 7
+            self.cell(117, 5, val, align="L")
+            y_pos += 6.6
             
         # Summary Statistics Badges
-        self.set_xy(20, 212)
+        self.set_xy(20, 202)
         badge_w = 41
         badges = [
             ("3,957", "Lines of Code", (31, 73, 125)),
@@ -141,33 +143,34 @@ class SourceCodePDF(FPDF):
             bx = 20 + i * (badge_w + 3.6)
             self.set_fill_color(241, 245, 249)
             self.set_draw_color(col[0], col[1], col[2])
-            self.rect(bx, 212, badge_w, 22, "FD")
-            self.set_xy(bx, 214)
-            self.set_font("Arial", "B", 14)
+            self.rect(bx, 202, badge_w, 20, "FD")
+            self.set_xy(bx, 204)
+            self.set_font("Arial", "B", 13)
             self.set_text_color(col[0], col[1], col[2])
-            self.cell(badge_w, 6, val, align="C")
-            self.set_xy(bx, 222)
+            self.cell(badge_w, 5, val, align="C")
+            self.set_xy(bx, 211)
             self.set_font("Arial", "", 8)
             self.set_text_color(71, 85, 105)
-            self.cell(badge_w, 5, lbl, align="C")
+            self.cell(badge_w, 4, lbl, align="C")
 
         # Formal Student Certification
-        self.set_xy(20, 244)
+        self.set_xy(20, 229)
         self.set_fill_color(248, 250, 252)
         self.set_draw_color(226, 232, 240)
-        self.rect(20, 244, 175, 34, "FD")
+        self.rect(20, 229, 175, 34, "FD")
         
-        self.set_xy(24, 247)
+        self.set_xy(24, 232)
         self.set_font("Arial", "B", 9)
         self.set_text_color(31, 73, 125)
         self.cell(0, 5, "CANDIDATE CERTIFICATION & LMS SUBMISSION DECLARATION")
         
-        self.set_xy(24, 253)
-        self.set_font("Arial", "", 8.5)
+        self.set_xy(24, 238)
+        self.set_font("Arial", "", 8.2)
         self.set_text_color(51, 65, 85)
         cert_text = (
-            "I hereby declare that this document contains the original, complete source code of the Capstone project "
-            "developed by me. All modules, database schemas, statistical algorithms, and Streamlit user interfaces were "
+            "I hereby declare that this document contains the original, complete source code of Project P101 "
+            "(Batch: ABES_OND26 MCA 2ND YEAR_DATA ANALYTICS_BATCH 01) developed by me under the faculty guidance of "
+            "Dinesh Sereno. All modules, database schemas, statistical algorithms, and Streamlit user interfaces were "
             "engineered, verified via automated Pytest test suites, and deployed to Streamlit Community Cloud."
         )
         self.multi_cell(167, 4.2, cert_text)

@@ -161,13 +161,15 @@ def build_step15_doc(output_path):
     
     # 1. Document Control
     add_heading_1(doc, "1. Document Control & Project Metadata")
-    meta_table = doc.add_table(rows=6, cols=2)
+    meta_table = doc.add_table(rows=8, cols=2)
     meta_data = [
+        ("Project ID", "P101"),
+        ("Batch ID", "ABES_OND26 MCA 2ND YEAR_DATA ANALYTICS_BATCH 01"),
         ("Document Identifier", "APEX-BLD-RPT-STEP15-v1.0"),
         ("Project Title", "Outpatient Appointment No-Show Analysis & Capacity Optimization System"),
         ("Healthcare Network Modeled", "ApexCare Health Network, Noida (Sectors 62, 18, 137, Greater Noida)"),
         ("Learner / Developer", "Deepshikha | Roll No: 2500320140047 | MCA 2nd Year (Data Analytics)"),
-        ("Faculty Project Mentor", "Alpna Lodhi mam | Department of Computer Applications, ABES Engineering College"),
+        ("Faculty Project Mentor", "Dinesh Sereno | Department of Computer Applications, ABES Engineering College"),
         ("Build & Test Status", "18/18 Build Tasks Complete • 20/20 Pytests Passing (100% Pass Rate) • Ready for Step 16")
     ]
     for idx, (label, val) in enumerate(meta_data):
@@ -372,7 +374,7 @@ def build_step15_doc(output_path):
     
     sign_data = [
         ("Student Developer", "Deepshikha", "MCA 2nd Year (Data Analytics), ABESEC", "COMPLETE / VERIFIED"),
-        ("Faculty Mentor", "Alpna Lodhi mam", "Department of Computer Applications, ABESEC", "PENDING REVIEW"),
+        ("Faculty Mentor", "Dinesh Sereno", "Department of Computer Applications, ABESEC", "PENDING REVIEW"),
         ("Academic Evaluator", "External Viva Board", "AKTU Examination Panel", "SCHEDULED")
     ]
     for row_idx, r_data in enumerate(sign_data, start=1):

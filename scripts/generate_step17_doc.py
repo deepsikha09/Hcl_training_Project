@@ -171,16 +171,18 @@ def build_project_document(output_path):
     
     # COVER TABLE
     add_heading_1(doc, "Project Metadata & Cover Information")
-    cov_table = doc.add_table(rows=10, cols=2)
+    cov_table = doc.add_table(rows=12, cols=2)
     cov_data = [
+        ("Project ID", "P101"),
+        ("Batch ID", "ABES_OND26 MCA 2ND YEAR_DATA ANALYTICS_BATCH 01"),
         ("Institute Name", "ABES Engineering College, NH-24, Ghaziabad, Uttar Pradesh - 201009"),
         ("Department & Degree", "Department of Master of Computer Applications (MCA) • MCA 2nd Year"),
         ("Specialization Stream", "Data Analytics & Healthcare Operations"),
         ("Project Title", "Outpatient Appointment No-Show Analysis & Capacity Optimization System"),
         ("Healthcare Network Modeled", "ApexCare Health Network, Noida (Sectors 62, 18, 137, Greater Noida)"),
         ("Student Name & Roll No.", "Deepshikha | University Roll Number: 2500320140047"),
-        ("Faculty Project Mentor", "Alpna Lodhi mam | Department of Computer Applications, ABESEC"),
-        ("GitHub Repository", "https://github.com/deepshikha-0047/2500320140047-appointment-noshow"),
+        ("Faculty Project Mentor", "Dinesh Sereno | Department of Computer Applications, ABESEC"),
+        ("GitHub Repository", "https://github.com/deepsikha09/Hcl_training_Project"),
         ("Live Streamlit Cloud URL", "https://2500320140047-appointment-noshow.streamlit.app"),
         ("Academic Year & Session", "2026–2027 • MCA 4th Semester Capstone Evaluation")
     ]

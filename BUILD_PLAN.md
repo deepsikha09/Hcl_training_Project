@@ -1,9 +1,11 @@
 # BUILD_PLAN.md — Implementation Roadmap & AI Execution Guide
 
 **Project:** Appointment No-Show Analysis & Optimization System  
+**Project ID:** P101  
+**Batch ID:** ABES_OND26 MCA 2ND YEAR_DATA ANALYTICS_BATCH 01  
 **Organization Modeled:** ApexCare Health Network, Noida  
 **Student:** Deepshikha | Roll No: `2500320140047` | MCA 2nd Year Data Analytics, ABES Engineering College  
-**Faculty Mentor:** Alpna Lodhi mam  
+**Faculty Mentor:** Dinesh Sereno  
 **Technology Stack:** Python 3.12, Streamlit 1.38+, Pandas, NumPy, SciPy, Statsmodels, Plotly, SQLite 3, Pytest, Tailwind CSS CDN  
 
 ---

@@ -7,8 +7,10 @@
 [![Styling](https://img.shields.io/badge/Styling-Tailwind%20CSS%20CDN-38B2AC.svg)](https://tailwindcss.com/)
 
 **Academic Program:** MCA 2nd Year (Data Analytics Specialization), ABES Engineering College  
+**Project ID:** P101  
+**Batch ID:** ABES_OND26 MCA 2ND YEAR_DATA ANALYTICS_BATCH 01  
 **Learner:** Deepshikha | Roll No: `2500320140047`  
-**Faculty Mentor:** Alpna Lodhi mam  
+**Faculty Mentor:** Dinesh Sereno  
 **Modeled Healthcare Network:** ApexCare Health Network, Noida (Sectors 62, 18, 137, Greater Noida)  
 **GitHub Repository:** [https://github.com/deepsikha09/Hcl_training_Project](https://github.com/deepsikha09/Hcl_training_Project)  
 **Live Web Application:** [https://2500320140047-appointment-noshow.streamlit.app](https://2500320140047-appointment-noshow.streamlit.app)  
@@ -204,4 +206,4 @@ python -m pytest tests/ -v
 ---
 
 ## 7. License & Academic Attribution
-Developed as an academic capstone project at **ABES Engineering College, Ghaziabad** under the guidance of **Alpna Lodhi mam**. Free for academic and educational evaluation.
+Developed as an academic capstone project (Project ID: **P101**, Batch: **ABES_OND26 MCA 2ND YEAR_DATA ANALYTICS_BATCH 01**) at **ABES Engineering College, Ghaziabad** under the guidance of **Dinesh Sereno**. Free for academic and educational evaluation.

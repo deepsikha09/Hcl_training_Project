@@ -86,12 +86,13 @@ def build_step5_brd(output_path):
     doc.add_paragraph().paragraph_format.space_after = Pt(4)
 
     # Document Header Box
-    h_table = doc.add_table(rows=5, cols=2)
+    h_table = doc.add_table(rows=6, cols=2)
     h_widths = [2.2, 4.3]
     h_data = [
+        ("Project ID & Batch:", "P101 | ABES_OND26 MCA 2ND YEAR_DATA ANALYTICS_BATCH 01"),
         ("Project Title:", "Appointment No-Show Analysis & Optimization System"),
         ("Student Details:", "Deepshikha | Roll No: 2500320140047 | MCA 2nd Year (DA)"),
-        ("Faculty Mentor:", "Alpna Lodhi mam, Assistant Professor, Dept. of MCA"),
+        ("Faculty Mentor:", "Dinesh Sereno, Assistant Professor, Dept. of MCA"),
         ("Domain & Organisation:", "Healthcare Analytics | ApexCare Outpatient & Corporate Health Network, Noida"),
         ("Deliverable Step:", "Step 05 — Business Requirements Document (BRD v1.0 Baseline)")
     ]
@@ -186,10 +187,10 @@ def build_step5_brd(output_path):
     for i, h in enumerate(dc_headers):
         dc_table.rows[0].cells[i].paragraphs[0].text = h
     dc_rows = [
-        ("v0.1", "2026-11-18", "Deepshikha (Learner/BA)", "Alpna Lodhi mam (Faculty)", "Initial Draft & Scope Definition"),
+        ("v0.1", "2026-11-18", "Deepshikha (Learner/BA)", "Dinesh Sereno (Faculty)", "Initial Draft & Scope Definition"),
         ("v0.2", "2026-11-18", "Deepshikha (Learner/BA)", "Smt. Kavita Sharma (Ops Lead)", "Stakeholder Pain Points & HMW Traceability"),
         ("v0.3", "2026-11-18", "Deepshikha (Learner/BA)", "Dr. A. K. Banerjee (CMO)", "Clinical Compliance & MoSCoW Requirements"),
-        ("v1.0", "2026-11-18", "Deepshikha (Learner/BA)", "Alpna Lodhi mam (Faculty)", "Final Formal Baseline for Architectural Sign-off")
+        ("v1.0", "2026-11-18", "Deepshikha (Learner/BA)", "Dinesh Sereno (Faculty)", "Final Formal Baseline for Architectural Sign-off")
     ]
     for r_i, r_data in enumerate(dc_rows, start=1):
         for c_i, val in enumerate(r_data):
@@ -416,7 +417,7 @@ def build_step5_brd(output_path):
         so_table.rows[0].cells[i].paragraphs[0].text = h
     so_rows = [
         ("Deepshikha", "Student Data Analyst (MCA 2nd Yr)", "Deepshikha", "2026-11-18"),
-        ("Alpna Lodhi mam", "Faculty Project Mentor (Dept of MCA)", "Approved (Alpna Lodhi)", "2026-11-18"),
+        ("Dinesh Sereno", "Faculty Project Mentor (Dept of MCA)", "Approved (Dinesh Sereno)", "2026-11-18"),
         ("Smt. Kavita Sharma", "Clinic Operations Manager (SH-01)", "Approved (Kavita Sharma)", "2026-11-18"),
         ("Dr. A. K. Banerjee", "Chief Medical Officer (SH-02)", "Approved (A.K. Banerjee)", "2026-11-18")
     ]

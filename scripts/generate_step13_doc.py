@@ -84,12 +84,13 @@ def build_step13_doc(output_path):
     doc.add_paragraph().paragraph_format.space_after = Pt(4)
 
     # Document Header Box
-    h_table = doc.add_table(rows=5, cols=2)
+    h_table = doc.add_table(rows=6, cols=2)
     h_widths = [2.2, 4.3]
     h_data = [
+        ("Project ID & Batch:", "P101 | ABES_OND26 MCA 2ND YEAR_DATA ANALYTICS_BATCH 01"),
         ("Project Title:", "Appointment No-Show Analysis & Optimization System"),
         ("Student Details:", "Deepshikha | Roll No: 2500320140047 | MCA 2nd Year (DA)"),
-        ("Faculty Mentor:", "Alpna Lodhi mam, Assistant Professor, Dept. of MCA"),
+        ("Faculty Mentor:", "Dinesh Sereno, Assistant Professor, Dept. of MCA"),
         ("QA Framework:", "Pytest Automated Suite + Functional Manual Test Protocol (TC-F & TC-T)"),
         ("Deliverable Step:", "Step 13 — Comprehensive Test Plan, Test Cases & Final Traceability Matrix")
     ]

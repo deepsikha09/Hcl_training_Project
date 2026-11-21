@@ -64,7 +64,10 @@ st.sidebar.markdown("---")
 st.sidebar.info(
     f"**Active Records:** {len(filtered_data)} of {len(dataset)}\n\n"
     f"**Database:** SQLite (`data/app.db`)\n\n"
-    f"**Student:** Deepshikha (`2500320140047`)"
+    f"**Project ID:** P101\n\n"
+    f"**Batch:** ABES_OND26 MCA 2ND YEAR_DATA ANALYTICS_BATCH 01\n\n"
+    f"**Student:** Deepshikha (`2500320140047`)\n\n"
+    f"**Mentor:** Dinesh Sereno"
 )
 
 # 4. Header Banner

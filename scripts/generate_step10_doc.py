@@ -82,12 +82,13 @@ def build_step10_doc(output_path):
     doc.add_paragraph().paragraph_format.space_after = Pt(4)
 
     # Document Header Box
-    h_table = doc.add_table(rows=5, cols=2)
+    h_table = doc.add_table(rows=6, cols=2)
     h_widths = [2.2, 4.3]
     h_data = [
+        ("Project ID & Batch:", "P101 | ABES_OND26 MCA 2ND YEAR_DATA ANALYTICS_BATCH 01"),
         ("Project Title:", "Appointment No-Show Analysis & Optimization System"),
         ("Student Details:", "Deepshikha | Roll No: 2500320140047 | MCA 2nd Year (DA)"),
-        ("Faculty Mentor:", "Alpna Lodhi mam, Assistant Professor, Dept. of MCA"),
+        ("Faculty Mentor:", "Dinesh Sereno, Assistant Professor, Dept. of MCA"),
         ("Artifacts Generated:", "data/app.db, data/Appointment_No_Show_data.xlsx, data/*.csv, validation_report.txt"),
         ("Deliverable Step:", "Step 10 — Synthetic Dataset Generation & Validation Specification")
     ]

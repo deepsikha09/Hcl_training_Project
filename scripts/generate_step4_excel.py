@@ -42,7 +42,7 @@ def create_rtm_excel(output_path):
     ws_rtm["A1"].alignment = Alignment(vertical="center")
     
     ws_rtm.merge_cells("A2:L2")
-    ws_rtm["A2"] = "Project: Appointment No-Show Analysis | Student: Deepshikha (Roll: 2500320140047) | Mentor: Alpna Lodhi mam | Step: 04"
+    ws_rtm["A2"] = "Project ID: P101 | Batch: ABES_OND26 MCA 2ND YEAR_DATA ANALYTICS_BATCH 01 | Student: Deepshikha (Roll: 2500320140047) | Mentor: Dinesh Sereno | Step: 04"
     ws_rtm["A2"].font = font_sub
     ws_rtm["A2"].alignment = Alignment(vertical="center")
     

@@ -173,15 +173,17 @@ def build_step16_doc(output_path):
     
     # 1. Document Control
     add_heading_1(doc, "1. Document Control & Deployment Metadata")
-    meta_table = doc.add_table(rows=7, cols=2)
+    meta_table = doc.add_table(rows=9, cols=2)
     meta_data = [
+        ("Project ID", "P101"),
+        ("Batch ID", "ABES_OND26 MCA 2ND YEAR_DATA ANALYTICS_BATCH 01"),
         ("Document Identifier", "APEX-DEP-GUIDE-STEP16-v1.0"),
         ("Project Title", "Outpatient Appointment No-Show Analysis & Capacity Optimization System"),
         ("Healthcare Network Modeled", "ApexCare Health Network, Noida (Sectors 62, 18, 137, Greater Noida)"),
         ("Learner / Developer", "Deepshikha | Roll No: 2500320140047 | MCA 2nd Year (Data Analytics)"),
-        ("Faculty Project Mentor", "Alpna Lodhi mam | Department of Computer Applications, ABESEC"),
+        ("Faculty Project Mentor", "Dinesh Sereno | Department of Computer Applications, ABESEC"),
         ("Target Cloud Host", "Streamlit Community Cloud (share.streamlit.io) • Ubuntu 22.04 LTS Container"),
-        ("Deployment Target Coordinates", "Repo: deepshikha-0047/2500320140047-appointment-noshow | Branch: main | URL: https://2500320140047-appointment-noshow.streamlit.app")
+        ("Deployment Target Coordinates", "Repo: deepsikha09/Hcl_training_Project | Branch: main | URL: https://2500320140047-appointment-noshow.streamlit.app")
     ]
     for idx, (label, val) in enumerate(meta_data):
         row = meta_table.rows[idx]
@@ -242,7 +244,7 @@ def build_step16_doc(output_path):
         '# 4. Set default branch to main\n'
         'git branch -M main\n\n'
         '# 5. Link to your GitHub remote repository\n'
-        'git remote add origin https://github.com/deepshikha-0047/2500320140047-appointment-noshow.git\n\n'
+        'git remote add origin https://github.com/deepsikha09/Hcl_training_Project.git\n\n'
         '# 6. Push local codebase to GitHub\n'
         'git push -u origin main'
     )
@@ -263,7 +265,7 @@ def build_step16_doc(output_path):
         param_table.rows[0].cells[i].paragraphs[0].add_run(h)
     
     param_rows = [
-        ("Repository", "deepshikha-0047/2500320140047-appointment-noshow", "Source GitHub repository holding codebase"),
+        ("Repository", "deepsikha09/Hcl_training_Project", "Source GitHub repository holding codebase"),
         ("Branch", "main", "Primary production deployment branch"),
         ("Main file path", "app.py", "Root entrypoint launching multi-page navigation"),
         ("App URL (Custom Slug)", "2500320140047-appointment-noshow", "Generates permanent URL: https://2500320140047-appointment-noshow.streamlit.app")
@@ -418,7 +420,7 @@ def build_step16_doc(output_path):
     
     sign_data = [
         ("Student Developer", "Deepshikha", "MCA 2nd Year (Data Analytics), ABESEC", "COMPLETE / READY FOR CLOUD"),
-        ("Faculty Mentor", "Alpna Lodhi mam", "Department of Computer Applications, ABESEC", "PENDING REVIEW"),
+        ("Faculty Mentor", "Dinesh Sereno", "Department of Computer Applications, ABESEC", "PENDING REVIEW"),
         ("Cloud Platform", "Streamlit Community Cloud", "Platform Hosting Service", "READY FOR LAUNCH")
     ]
     for row_idx, r_data in enumerate(sign_data, start=1):
